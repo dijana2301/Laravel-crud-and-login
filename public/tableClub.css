@@ -1,0 +1,102 @@
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+  color: rgb(94, 92, 92);
+  background-color: #78b6f3;
+  background-size: cover;
+  padding: 20px; 
+}
+table.blueTable {
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  table.blueTable td, table.blueTable th {
+    padding: 3px 2px;
+    
+  }
+  th{
+    background-color: #78b6f3;
+  }
+  table.blueTable tbody td {
+    font-size: 13px;
+    text-align: center;
+  }
+  table.blueTable tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+  table.blueTable thead {
+    background: rgb(217, 235, 247);
+    background: -moz-linear-gradient(top, #EEEEEE 0%, #EEEEEE 66%, #EEEEEE 100%);
+    background: -webkit-linear-gradient(top, #EEEEEE 0%, #EEEEEE 66%, #EEEEEE 100%);
+    background: linear-gradient(to bottom, #EEEEEE 0%, #EEEEEE 66%, #EEEEEE 100%);
+    border-bottom: 2px solid #444444;
+  }
+  table.blueTable thead th {
+    font-size: 15px;
+    color:#444444;
+    text-align: center;
+    padding: 10px 0;
+  }
+  table.blueTable thead th:first-child {
+    border-left: none;
+  }
+  
+  table.blueTable tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #D0E4F5;
+    background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+    background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+    background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+    border-top: 2px solid #6b6a6a;
+  }
+  table.blueTable tfoot td {
+    font-size: 14px;
+  }
+  table.blueTable tfoot .links {
+    text-align: right;
+  }
+  table.blueTable tfoot .links a{
+    display: inline-block;
+    background: rgb(168, 210, 238);
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+  .filter {
+    font-size: 14px;
+  }
+  .btn_back{
+    display: block;
+    width: 13%;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 3px;
+    padding: 8px 14px;
+    line-height: 1.3333333;
+    margin-bottom: 0;
+    border-radius: 50px;
+    text-align: center;
+    white-space: nowrap;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    user-select: none;
+    text-decoration: none;
+    color: #444444;
+  }
+  .btn_back:hover{
+    color: #FFFFFF;
+    background: #2dc997;
+    border: none;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+    text-decoration: none;
+  }
